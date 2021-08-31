@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookmi | Book Your Dream Accomodation Online</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/123bf779ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+            <!-- HEADER -->
+
+    <header class="header parent-container-flex-nav-signup flexHeaderContainer">
+        <img class="logo-image" id="logo" src="images/logo/Bookmi_3x.png" alt="Bookmi Logo">
+        
+        <nav class="header parent-container-flex-nav nounderline" id="nav-menu">
+            <a class="nav-bar-button nav-bar" href="#accomodationsMostPopular">Accomodation</a>
+            <a class="nav-bar-button nav-bar" href="#activities">Activities</a>
+        </nav>
+        <div class="signup" id="signupMenu">
+            <a href="#">Sign Up</a>
+        </div>
+
+    </header>
+    <main>
+
+                        <!-- LOGO & NAV-BAR -->
+
+        <section id="page-title-subtitle" class="container">
+            <div>
+                <h1>Find a place for your dream vacation</h1>
+                <div>
+                    <p>Downtown or in the countryside</p>
+                </div>
+            </div>
+        </section>
+        <div id="location" class="bottomMargin">
+            <div>
+                <div class="parent-container-flex">
+                    <div class="searchWrapperIcon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <input class="searchInputText" type="text" value="Wellington, New-Zealand"><br>
+                    <!--
+                    <input class="searchButton" type="image" src="images/icon/search-solid.svg" value="Search">
+                    -->
+                    <button class="searchButton" type="button"><span id="searchText">Search</span><i id="searchMagnGlassIcon" class="fas fa-search"></i></button>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <section class="parent-container-flex bottomMargin" id="filters">
+            <div class="parent-container-flex" id="filter-title">
+                <h2>Filters</h2>
+            </div>       
+            <div class="parent-container-flex parent-container-flex-filters">
+                <i class="fas fa-money-bill-wave filterIcon"></i>
+                <div class="filterTitle">
+                    Low cost
+                </div>
+            </div>
+            <div class="parent-container-flex parent-container-flex-filters">
+                <i class="fas fa-child filterIcon"></i>
+                <div class="filterTitle filterTitleLong">
+                    Family-friendly
+                </div>
+            </div>    
+            <div class="parent-container-flex parent-container-flex-filters">
+                <i class="fas fa-heart filterIcon"></i>
+                <div class="filterTitle">
+                    Romantic
+                </div>
+            </div>
+            <div class="parent-container-flex parent-container-flex-filters">
+                <i class="fas fa-dog filterIcon"></i>
+                <div class="filterTitle filterTitleLong">
+                    Pets allowed
+                </div>
+            </div>
+        </section>
+
+        <div class="parent-container-flex bottomMargin" id="result-infos">
+            <div class="parent-container-flex" id="info-circle">
+                <i class="fas fa-info"></i>
+            </div>
+            <div class="parent-container-flex" id="info-text">
+                <p>
+                    More than 500 accomodations are available in this city
+                </p>
+            </div>
+        </div>
+        
+                <!-- ACCOMODATION & MOST POPULAR -->
+           
+        <section id="accomodationsMostPopular" class="main-container accomodations-mostpop-wrapper-flex">
+
+            <div id="accomodationsMainContainer" class="accomodationsMostpopContainer container-background-a container-background-phone accomodations-containers">
+                <div class="accomodationsTitle">
+                    <h2>Accomodations</h2>
+                </div>                
+                <div class="accomodations" id="accomodationsResults">
+                    <a href="#" class="accomodationsSingleWrapper nounderline IndividualWrapper">
+                        <div class="accomodationsWrapper">
+                            <div class="accomodationsImageTitle accomodationsIndividualResultsWrappers">
+                                <img class="accomodationsImage imageFillAccomodations" src="images/hebergements/3_medium/bedroom-5664221_1280.jpg" alt="Room with double bed, comfortable armchair with a cushion">
+                            </div>
+                                <h3 class="accomodationsName accomodationsIndividualResultsWrappers">
+                                        Hotel Once Upon A Time 
+                                </h3>
+                            <div class="nightPrice accomodationsIndividualResultsWrappers">
+                                Night starting at <span class="priceTag">28€</span>
+                            </div>
+                            <div class="rating accomodationsIndividualResultsWrappers">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star emptyStar"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="accomodationsSingleWrapper nounderline IndividualWrapper">
+                        <div class="accomodationsWrapper">
+                            <div class="accomodationsImageTitle accomodationsIndividualResultsWrappers">
+                                <img class="accomodationsImage imageFillAccomodations" src="images/hebergements/3_medium/hotel-1330841_1280.jpg" alt="Double bed, big wardrobe with mirror and corner sofa with blue cushions">
+                                </div>
+                                <h3 class="accomodationsName accomodationsIndividualResultsWrappers">
+                                    Appart'Hotel Bevya                                
+                                </h3>
+                            <div class="nightPrice accomodationsIndividualResultsWrappers">
+                                Night starting at <span class="priceTag">53€</span>
+                            </div>
+                            <div class="rating accomodationsIndividualResultsWrappers">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="accomodationsSingleWrapper nounderline IndividualWrapper">
+                        <div class="accomodationsWrapper">
+                            <div class="accomodationsImageTitle accomodationsIndividualResultsWrappers">
+                                <img class="accomodationsImage imageFillAccomodations" src="images/hebergements/3_medium/hotel-3976622_1280.jpg" alt="Double bed with the terrace door open, with a view on the sea">
+                                </div>
+                                <h3 class="accomodationsName accomodationsIndividualResultsWrappers">
+                                    Hotel Beach Resaya                                
+                                </h3>
+                            <div class="nightPrice accomodationsIndividualResultsWrappers">
+                                Night starting at <span class="priceTag">74€</span>
+                            </div>
+                            <div class="rating accomodationsIndividualResultsWrappers">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star emptyStar"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="accomodationsSingleWrapper nounderline IndividualWrapper">
+                        <div class="accomodationsWrapper">
+                            <div class="accomodationsImageTitle accomodationsIndividualResultsWrappers">
+                                <img class="accomodationsImage imageFillAccomodations" src="images/hebergements/3_medium/room-4768553_1280.jpg" alt="Double bed with brick colored bed linen, table and chair, big windows with closed light-colored curtains">
+                                </div>
+                                <h3 class="accomodationsName accomodationsIndividualResultsWrappers">
+                                    Hotel Mevelina                                
+                                </h3>
+                            <div class="nightPrice accomodationsIndividualResultsWrappers">
+                                Night starting at <span class="priceTag">29€</span>
+                            </div>
+                            <div class="rating accomodationsIndividualResultsWrappers">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star emptyStar"></i>
+                                <i class="fas fa-star emptyStar"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="accomodationsSingleWrapper nounderline IndividualWrapper">
+                        <div class="accomodationsWrapper">
+                            <div class="accomodationsImageTitle accomodationsIndividualResultsWrappers">
+                                <img class="accomodationsImage imageFillAccomodations" src="images/hebergements/3_medium/room-4768554_1280.jpg" alt="Deux sets de lits superposés">
+                            </div>
+                            <h3 class="accomodationsName accomodationsIndividualResultsWrappers">
+                                    Arty Bed and Breakast                                
+                            </h3>
+                            <div class="nightPrice accomodationsIndividualResultsWrappers">
+                                Night starting at <span class="priceTag">48€</span>
+                            </div>
+                            <div class="rating accomodationsIndividualResultsWrappers">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star emptyStar"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="accomodationsSingleWrapper nounderline IndividualWrapper">
+                        <div class="accomodationsWrapper">
+                            <div class="accomodationsImageTitle accomodationsIndividualResultsWrappers">
+                                <img id="image-6" class="accomodationsImage imageFillAccomodations" src="images/hebergements/3_medium/room-2269594_1280.jpg" alt="Double bed with flowers and a painting on the wall">
+                            </div>
+                            <h3 class="accomodationsName accomodationsIndividualResultsWrappers">
+                                        By The Lake Hotel                                
+                            </h3>
+                            <div class="nightPrice accomodationsIndividualResultsWrappers">
+                                        Night starting at <span class="priceTag">96€</span>
+                            </div>
+                            <div class="rating accomodationsIndividualResultsWrappers">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="showMoreContainer">
+                    <a class="showMoreLink" href="#">
+                    Show more
+                    </a>
+                </div>
+        </div>
+        <aside id="mostPopularMainContainer" class="accomodationsMostpopContainer container-background-a accomodations-containers">
+            <div class="mostPopularTitle">
+                <h2>Most popular</h2>
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div id="mostpop-container-flex" class="container">
+                    <a href="#" class="nounderline IndividualWrapper">
+                        <div class="mostPopularIndividualWrapper container">
+                            <div class="MostPopularImgContainer">
+                                <img class="imageFill" src="images/hebergements/3_medium/window-3178666_1280.jpg" alt="Several double beds with pillows, on wooden floor, with huge windows, view a view on a mountain forest">
+                            </div>
+                            <div class="mostPop-content">
+                                <div class="mostPopularName flexContainer">
+                                    In The Forest Hotel
+                                </div>
+                                <div class="mostPopularPrice">
+                                    Night starting at <span class="priceTag">124€</span>
+                                </div>
+                                <div class="mp-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="nounderline IndividualWrapper">
+                        <div class="mostPopularIndividualWrapper container">
+                            <div class="MostPopularImgContainer">
+                                <img class="imageFill" src="images/hebergements/3_medium/bedroom-5664223_1280.jpg" alt="Double Bed  Room with armchair with a blown cushion and a piece of art on the wall" >
+                            </div>
+                            <div class="mostPop-content">
+                                <div class="mostPopularName flexContainer">
+                                    Sweet Orient Bed and Breakfast
+                                </div>
+                                <div class="mostPopularPrice">
+                                    Night starting at <span class="priceTag">71€</span>
+                                </div>
+                                <div class="mp-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star emptyStar"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="nounderline IndividualWrapper">
+                        <div class="mostPopularIndividualWrapper container">
+                            <div class="MostPopularImgContainer">
+                                <img class="imageFill accomodationsImagesPopular" src="images/hebergements/3_medium/villa-885935_1280.jpg" alt="Six green bunk beds in a room">
+                            </div>
+                            <div class="mostPop-content">
+                                <div class="mostPopularName flexContainer">
+                                    Domingo Hostel
+                                </div>
+                                <div class="mostPopularPrice">
+                                    Night starting at <span class="priceTag">19€</span>
+                                </div>
+                                <div class="mp-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star emptyStar"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+        </aside>
+        </section>
+
+                        <!-- ACTIVITIES -->
+        
+        <section class="main-container title parent-container-flex-activites-title bottomMargin" id="activities">
+            <div id="activitiesTitle" class="">
+                <h2>Activities</h2>
+            </div>
+            <div class="parent-container-flex-activites">
+                <div id="beehive" class="activitiesIndividualWrapper">
+                <a class="nounderline" href="">
+                <figure class="activitiesWrapperImageTitle">
+                    <img class="imageFillActivities" src="images/activites/3_medium/the-beehive-5489698_1280.jpg" alt="The Beehive, Wellington">
+                    <figcaption>The Beehive</figcaption>
+                </figure>
+                </a>
+                </div>
+                <div id="wellington-cable-car" class="activitiesIndividualWrapper">
+                    <a href="" class="nounderline">
+                    <figure id="activitiesWrapperImageTitle-2" class="activitiesWrapperImageTitle">
+                        <img class="imageFillActivities" src="images/activites/3_medium/wellington-2144119_1280.jpg" alt="View of the Wellington Cable Car above the city">
+                        <figcaption>Wellington Cable Car</figcaption>
+                    </figure>
+                    </a>
+                </div>
+                <div id="historical-center" class="activitiesIndividualWrapper">
+                    <a href="" class="nounderline">
+                    <figure id="activitiesWrapperImageTitle3" class="activitiesWrapperImageTitle">
+                        <img class="imageFillActivities" src="images/activites/3_medium/alexandre-lecocq-7XBwI3YhDuM-unsplash.jpg" alt="White HIstorical House in Wellington">
+                        <figcaption>Wellington Historical Center</figcaption>
+                    </figure>
+                    </a>
+                </div>
+                <div id="canoe-pier" class="activitiesIndividualWrapper">
+                    <a href="" class="nounderline">
+                    <figure class="activitiesWrapperImageTitle">
+                        <img class="imageFillActivities" src="images/activites/3_medium/james-coleman-KtgBf2jpuv0-unsplash_1280.jpg" alt="Kayaks and canoes on the pier in Wellington">
+                        <figcaption>Kayaking</figcaption>
+                    </figure>
+                    </a>   
+                </div>
+                <div id="solace-statue" class="activitiesIndividualWrapper">
+                    <a href="" class="nounderline">
+                    <figure class="activitiesWrapperImageTitle">
+                        <img class="imageFillActivities" src="images/activites/3_medium/james-coleman-C4y70GyWY78-unsplash_1280.jpg" alt="Solace In The Wind Statue in the Harbour">
+                        <figcaption>Solace In The Wind Statue</figcaption>
+                    </figure>
+                    </a>
+                </div>
+                <div id="red-rocks" class="activitiesIndividualWrapper">
+                    <a href="" class="nounderline">
+                    <figure class="activitiesWrapperImageTitle">
+                        <img class="imageFillActivities" src="images/activites/3_medium/luca-calderone-OslU6-xwawY-unsplash_1280.jpg" alt="A Fur Seal at Red Rocks">
+                        <figcaption>Red Rocks Fur Seal Colony</figcaption>
+                    </figure>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="parent-container-flex-footer container-background-a">
+        <div class="footerWrapperComplete">
+            <h2>About</h2>
+            <div class="footerWrapper">
+                <a class="footerWrapperContent">Site Map</a>
+                <a class="footerWrapperContent">General Terms and Conditions</a>
+                <a class="footerWrapperContent">Data and Privacy</a>
+            </div>
+        </div>
+        <div class="footerWrapperComplete">
+            <h2>
+                Our Accomodations
+            </h2>
+            <div class="footerWrapper">
+                <a class="footerWrapperContent">Quality Assessment</a>
+                <a class="footerWrapperContent">You have a hotel?</a>
+            </div>
+        </div>
+        <div class="footerWrapperComplete">
+            <h2>Assistance</h2>
+            <div class="footerWrapper">
+                <a class="footerWrapperContent">Help Desk</a>
+                <a class="footerWrapperContent">Contact Us</a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
