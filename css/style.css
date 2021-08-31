@@ -183,6 +183,7 @@ img#logo {
     border:none;
     border-radius:0 1rem 1rem 0;
     padding:0 1.5rem 0 1.5rem;
+    cursor: pointer;
 }
 
 #searchText {
@@ -988,6 +989,10 @@ figcaption {
 }
 
 @media only screen and (min-width:1405px) and (max-width:1670px) {
+    .mostPopularIndividualWrapper.container {
+        margin-bottom: 0rem;
+    }
+    
     .accomodationsMostpopContainer {
         width:initial;
     }
@@ -997,8 +1002,10 @@ figcaption {
     }
 
     #mostpop-container-flex {
-        flex-flow: wrap;
-        margin-right:1rem;
+        display: flex;
+        flex-direction: column;
+        height: 75%;
+        justify-content: space-evenly;
     }
 }
 
