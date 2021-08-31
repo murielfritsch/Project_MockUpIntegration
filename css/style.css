@@ -507,7 +507,7 @@ img#logo {
     display:grid;
     grid-template:
         [row-1] 2fr [row-2] 1fr [row-3] 2fr [row-4] /
-        [col-1] 22% [col-2] 22% [col-3] 22% [col-4] 22% [col-5];
+        [col-1] auto [col-2] auto [col-3] auto [col-4] auto [col-5];
     gap:5rem 2rem;
     margin-top: 2rem;
 }
