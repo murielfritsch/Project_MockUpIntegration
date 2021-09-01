@@ -1013,10 +1013,6 @@ figcaption {
 
 
 @media only screen and (min-width:1670px) and (max-width:1900px) {
-    body {
-        background-color:lightgreen;
-    }
-
     #accomodationsResults {
         display:flex;
         flex-direction:row;
@@ -1067,9 +1063,6 @@ figcaption {
 
 
 @media only screen and (min-width:1900px) {
-    body {
-        background-color:lightblue;
-    }
 
     #accomodationsResults {
         display:flex;
