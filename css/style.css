@@ -173,6 +173,9 @@ img#logo {
     padding-left:1rem;
     color:black;
     font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .searchButton {
