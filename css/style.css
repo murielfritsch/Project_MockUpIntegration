@@ -43,7 +43,6 @@ li.parent-container-flex {
     justify-content:center;
 }
 
-
 .nav-bar-button {
     display:flex;
     height:100%;
@@ -56,7 +55,6 @@ a.nav-bar-button {
 .nav-bar {
     margin-left:3rem;
 }
-
 
 .container {
     padding: 1% 1% 1% 1%;
@@ -71,15 +69,7 @@ a.nav-bar-button {
 h1 {
     font-size:2rem;
 }
-/*
-#page-title h1 {
-    margin-bottom:0;    
-}
 
-#page-subtitle p {
-    margin-top:0;
-}
-*/
 #page-title-subtitle p {
     margin-top:0;
 }
@@ -115,7 +105,6 @@ img#logo {
 }
 
 #nav-menu {
-    /* places the menu in the middle of the container */
     display:flex;
     align-items: center;
     flex-grow:2;
@@ -194,7 +183,6 @@ img#logo {
     display:initial;
 }
 
-
 .fas {
     background:#F2F2F2;
 }
@@ -257,19 +245,11 @@ img#logo {
     
 }
 
-/*
-#fa-info-circle {
-    display: flex;
-    align-items: center;
-}
-*/
-
 #info-circle {
     margin-right:1rem;
     padding:0.75rem 1rem 0.75rem 1rem;
     border:solid 1px #F2F2F2;
     border-radius:50%;
-
 }
 
 .main-container {
@@ -278,9 +258,6 @@ img#logo {
 
 .accomodations-mostpop-wrapper-flex  {
     display:flex;
-    /* Wrap only if not wanting to leave them on the same row - the most pop container will go on the line under if flex-flow:wrap;
-    flex-flow:wrap;
-    */
     flex-direction:row;
 }
 
@@ -316,22 +293,12 @@ img#logo {
     border-radius:1rem 0 0 1rem;
 }
 
-/*
-.rating  {
-    margin:1rem;
-    */
-    /*
-    flex-wrap:wrap;
-    flex-direction:row;
-} 
-*/
-
 .mp-rating {
     white-space:nowrap;
 }
 
-/* ACCOMODATION & most-popular blocs*/
 
+/* ACCOMODATION & most-popular blocs*/
 
 .mostPopularTitle {
     display:flex;
@@ -391,7 +358,6 @@ img#logo {
     margin-bottom:1rem;
 }
 
-
 .priceTag {
     font-weight:bold;    
 }
@@ -431,7 +397,6 @@ img#logo {
     display:block;
 }
 
-
 .accomodationsIndividualWrapper, .IndividualWrapper {
     background-color: white;
     border-radius:1rem;
@@ -467,7 +432,6 @@ img#logo {
     border-radius:1rem;
     min-width:500px;
 }
-
 
 .mostpopularIndividualResultsWrappersTest {
     display:table;
@@ -589,8 +553,6 @@ figcaption {
 
 /* FOOTER */
 
-
-
 .parent-container-flex-footer {
     margin:auto;
     display:flex;
@@ -613,7 +575,6 @@ figcaption {
 .footerWrapperContent {
     margin:0.5rem 0;
 }
-
 
 
 
